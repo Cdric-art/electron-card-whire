@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+// Variables
+// ===============
+$textColor: #3E3F42;
+$colorPurple: #6977FF;
+$bgLight: #FAFAFA;
+$box: 0px 3px 6px #00000029;
+
+// Tools
+// ===============
+@import 'tools/reset';
+@import 'tools/mixins';
+
+
+// Generic
+// ===============
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $bgLight;
+  color: $textColor;
+}
+
+.emoji {
+  font-size: 2rem;
+}
+
+// Pages
+// ===============
+@import 'pages/home';
+@import 'pages/createdCard';
+
+// Modules
+// ===============
+@import "modules/header";
+@import "modules/nav";
+@import "modules/tags";
+@import "modules/dashboard";

@@ -1,0 +1,98 @@
+.created-card {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  grid-gap: 2rem;
+  max-width: 1300px;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: white;
+  border-radius: 35px;
+  box-shadow: $box;
+}
+
+.card {
+  position: relative;
+}
+
+.wrapper-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.header-card {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  margin-bottom: 10px;
+
+  .photo-profil {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 30px auto auto 30px;
+  }
+
+  .title-card {
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    .name {
+      font-weight: bold;
+      font-size: 1.8rem;
+      padding: 20px 0;
+    }
+
+    .job {
+      font-weight: 600;
+      font-size: 1.6rem;
+      padding: 10px 0;
+    }
+
+    .hook {
+      font-size: 1.4rem;
+      padding: 20px 0 10px;
+      line-height: 1.2;
+    }
+  }
+
+  .logo {
+    height: 60px;
+    margin: 30px 30px auto auto;
+  }
+}
+.body-card {
+
+  .wrapper-tags {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-items: center;
+    align-items: center;
+    min-height: 110px;
+    margin: 0 20px 20px 20px;
+  }
+
+}
+.footer-card {
+  text-align: center;
+
+  p {
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+
+  a {
+    display: inline-block;
+    color: $bgLight;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 10px 12px;
+    background-color: #0000FF;
+    border-radius: 8px;
+  }
+}
