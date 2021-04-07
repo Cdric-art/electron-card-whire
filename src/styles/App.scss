@@ -24,18 +24,9 @@ body {
   color: $textColor;
 }
 
-.emoji {
-  font-size: 2rem;
-}
 
 // Pages
 // ===============
-@import 'pages/home';
-@import 'pages/createdCard';
 
 // Modules
 // ===============
-@import "modules/header";
-@import "modules/nav";
-@import "modules/tags";
-@import "modules/dashboard";
