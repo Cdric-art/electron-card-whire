@@ -6,6 +6,7 @@ $textColor: #3E3F42;
 $colorPurple: #6977FF;
 $bgLight: #FAFAFA;
 $box: 0px 3px 6px #00000029;
+$boxInset: inset 0px 3px 6px #00000029;
 
 // Tools
 // ===============
@@ -24,9 +25,14 @@ body {
   color: $textColor;
 }
 
+.App {
+  height: 100vh;
+}
+
 
 // Pages
 // ===============
 
 // Modules
 // ===============
+@import "modules/loader";
